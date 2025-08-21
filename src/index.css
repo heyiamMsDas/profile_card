@@ -1,0 +1,68 @@
+body{
+  margin:0 ;
+  padding: 0; 
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.CompanyName {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  font-size:2rem ;
+  color:#333;
+  margin:0 ;
+}
+
+.tagline {
+  font-size: 1.2rem; 
+  color: #666; 
+}
+
+.profile-outline {
+
+  display: flex; 
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+.img-outline {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+  border:2px solid paleturquoise;
+  object-fit: cover;
+
+}
+
+.description-outline {
+
+  max-width: 600px;
+  margin:0 auto ;
+  padding:20px ;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+  background-image: linear-gradient(to right top , rgb(120, 236, 249,0.4),rgba(240, 111, 244, 0.651));
+  border-radius: 10px;
+
+
+
+}
+
+
+.description {
+
+  font-size:1em ;
+  color:navy
+
+
+}
+
+
+
+
+
+
+
